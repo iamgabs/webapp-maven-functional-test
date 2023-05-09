@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: FunctionalTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 18.55 s <<< FAILURE! - in FunctionalTest
+verificarSeAPaginaContemUmHeaderComUmHelloWorld(FunctionalTest)  Time elapsed: 18.412 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: MicrosoftEdge=113.0.1774.35)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b6af05bb4aa6f8374f056f8b38aa67fc, get {url=http://localhost:8080/gestaodeconfig}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:54447}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\conta\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54447/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b6af05bb4aa6f8374f056f8b38aa67fc
+	at FunctionalTest.verificarSeAPaginaContemUmHeaderComUmHelloWorld(FunctionalTest.java:22)
+
